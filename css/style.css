@@ -228,7 +228,7 @@ img.portfolio {
 }
 div.flex-container {
   display: flex;
-  height: 600px;
+  height: 750px;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
