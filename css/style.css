@@ -110,25 +110,23 @@ h1.header {
   font-family: "Georgia", Times, "Times New Roman", serif;
   background: #4aaaa5;
   color: #ffffff;
-  margin: 0 20.75% 0 17.45%;
+  margin: 0 25.75% 0 17.45%;
   font-weight: bold;
   float: left;
-  padding: 1.75% 2.25%;
+  padding: 1.25% 2.25%;
 }
 ul{
   list-style: none;
 }
 a.header {
-  a.header {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1em;
     color: #666666;
     text-decoration: none;
     float: left;
-    margin-top: 2.15%;
+    margin-top: 1.95%;
     padding: .055% .95% 0.05% 0.95%;
     border-right: 1px solid #cccccc;
-}
 }
 a.last {
   clear: right;
@@ -176,7 +174,7 @@ img.headshot {
   height: auto;
   width: 30%;
   float: left;
-  margin: 0;
+  margin: 0 2.5% 0 0;
 }
 div.contact-container {
   margin: 1.7% auto 5% auto;
@@ -184,6 +182,38 @@ div.contact-container {
   background: #ffffff;
   color:#666666;
   width: 60%;
+}
+form.contact {
+  font-size: 1em;
+  line-height: 2em;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+form.contact input{
+  width:99%;
+  font-size: .9em;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color:#666666;
+  border-color: #666666 1px;
+  padding: 3px;
+}
+form.contact textarea {
+  width: 99%;
+  height: 10em;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  color:#666666;
+  border-color: #666666 1px;
+  padding: 3px; 
+}
+
+button {
+  font-size: 1em;
+  border: none;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  background:#4aaaa5;
+  color:#ffffff;
+  width: 156px;
+  height: 51px;
 }
 div.portfolio-container {
   margin: 1.7% auto 5% auto;

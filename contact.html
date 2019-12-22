@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div class= "header-container">
     <header>
-      <div class="header-container">
         <h1 class="header">Tamaralynn Shute</h1>
         <nav>
-          <ul>
+            <ul>
             <li><a class="header" href="./index.html">About</a></li>
             <li><a class="header" href="./portfolio.html">Portfolio</a></li>
             <li><a class="header last" href="#">Contact</a></li>
-          </ul>
+            </ul>
         </nav>
-      </div>
     </header>
+    </div>
+
     <div class="contact-container">
       <h1 class="contact">Contact</h1>
       <hr class="contact">
-      <form></form>
+      <form class="contact">
+        <form method="post" action="#">
+          <label for="Name">Name:</label>
+          <br>
+          <input type="text" name="Name" value="John Smith" />
+          <br>
+          <label for="City">Email:</label>
+          <br>
+          <input type="text" name="Email" value="Email" />
+          <br>
+          <label for="Message">Message:</label>
+          <textarea name="message" >
+            </textarea>
+            <button type="button">Submit </button>
+        </form>
+        </form> 
+      </form>
     </div>
     <footer>
       Copyright ©
