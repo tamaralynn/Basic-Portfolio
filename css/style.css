@@ -115,18 +115,18 @@ h1.header {
   float: left;
   padding: 1.25% 2.25%;
 }
-ul{
+ul {
   list-style: none;
 }
 a.header {
-    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 1em;
-    color: #666666;
-    text-decoration: none;
-    float: left;
-    margin-top: 1.95%;
-    padding: .055% .95% 0.05% 0.95%;
-    border-right: 1px solid #cccccc;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  color: #666666;
+  text-decoration: none;
+  float: left;
+  margin-top: 1.95%;
+  padding: 0.055% 0.95% 0.05% 0.95%;
+  border-right: 1px solid #cccccc;
 }
 a.last {
   clear: right;
@@ -161,7 +161,7 @@ div.about-container {
   margin: 1.7% auto 5% auto;
   padding: 2.5%;
   background: #ffffff;
-  color:#666666;
+  color: #666666;
   width: 60%;
 }
 p.about {
@@ -180,7 +180,7 @@ div.contact-container {
   margin: 1.7% auto 5% auto;
   padding: 2.5%;
   background: #ffffff;
-  color:#666666;
+  color: #666666;
   width: 60%;
 }
 form.contact {
@@ -188,11 +188,11 @@ form.contact {
   line-height: 2em;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
-form.contact input{
-  width:99%;
-  font-size: .9em;
+form.contact input {
+  width: 99%;
+  font-size: 0.9em;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color:#666666;
+  color: #666666;
   border-color: #666666 1px;
   padding: 3px;
 }
@@ -201,26 +201,56 @@ form.contact textarea {
   height: 10em;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;
-  color:#666666;
+  color: #666666;
   border-color: #666666 1px;
-  padding: 3px; 
+  padding: 3px;
 }
 
 button {
   font-size: 1em;
   border: none;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  background:#4aaaa5;
-  color:#ffffff;
-  width: 156px;
+  background: #4aaaa5;
+  color: #ffffff;
+  width: 130px;
   height: 51px;
 }
 div.portfolio-container {
   margin: 1.7% auto 5% auto;
   padding: 2.5%;
   background: #ffffff;
-  color:#666666;
+  color: #666666;
   width: 60%;
+}
+img.portfolio {
+  width: 270px;
+  height: 180px;
+}
+div.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+div.img-contianer {
+  width: 270px;
+  height: 180px;
+  position: relative;
+}
+div.text-box {
+  /*position: absolute;
+  display: block;
+  bottom: 0px;*/
+  width: 245.5px;
+  background: #4aaaa5;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 0.5em;
 }
 footer {
   display: block;
