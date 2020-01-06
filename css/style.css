@@ -162,7 +162,7 @@ div.about-container {
   padding: 2.5%;
   background: #ffffff;
   color: #666666;
-  width: 60%;
+  width: 70%;
 }
 p.about {
   font-size: 1em;
@@ -233,15 +233,15 @@ div.flex-container {
   flex-direction: column;
   justify-content: flex-start;
 }
-div.img-contianer {
+div.img-container {
   width: 270px;
   height: 180px;
   position: relative;
 }
 div.text-box {
-  /*position: absolute;
+  position: absolute;
   display: block;
-  bottom: 0px;*/
+  bottom: 0px;
   width: 245.5px;
   background: #4aaaa5;
   color: #ffffff;
